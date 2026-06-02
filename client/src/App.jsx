@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import PuzzleBoard from './features/puzzles/puzzleBoard';
+import PuzzleBoard from './features/puzzles/PuzzleBoard';
 import Leaderboard from './features/leaderboard/leaderboard';
 import StatsDashboard from './features/stats/StatsDashboard';
 import { useAuth } from './context/AuthContext';
