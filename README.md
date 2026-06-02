@@ -1,7 +1,7 @@
 # Logic Looper 🧩
- [![Frontend Deployment](https://logic-looper-xi.vercel.app/)
-[![Backend Deployment](https://logic-looper-hlwp.onrender.com)
-
+[![Frontend Deployment](https://img.shields.io/badge/Frontend-Vercel-brightgreen?style=flat-square&logo=vercel)]((https://logic-looper-xi.vercel.app/)
+[![Backend Deployment](https://img.shields.io/badge/Backend-Render-blue?style=flat-square&logo=render)](https://logic-looper-backend.onrender.com)
+ 
 An enterprise-grade, high-performance procedural puzzle generation platform designed to challenge cognitive and logical reasoning. Built using an **Offline-First architecture**, **React 18**, **Node.js**, **Prisma ORM**, and **PostgreSQL**, this application renders complex structural grids smoothly while ensuring zero data loss during network disruptions.
 
 ## 🚀 Key Achievements (Impact Analytics)
