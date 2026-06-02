@@ -9,7 +9,7 @@ const StatsDashboard = ({ userId }) => {
    // const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:4000';
     const API_URL = window.location.hostname === "localhost" 
     ? 'http://localhost:4000' 
-    : 'https://your-backend-name.onrender.com';
+    : 'https://logic-looper-hlwp.onrender.com';
     fetch(`${API_URL}/stats/${userId}`)
       .then(res => res.json())
       .then(json => {

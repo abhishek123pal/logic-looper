@@ -18,7 +18,7 @@ export default function Leaderboard() {
          // const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:4000';
          const API_URL = window.location.hostname === "localhost" 
       ? 'http://localhost:4000' 
-      : 'https://your-backend-name.onrender.com';
+      : 'https://logic-looper-hlwp.onrender.com';
           const response = await fetch(`${API_URL}/leaderboard`);
           const data = await response.json();
           setLeaders(data);
