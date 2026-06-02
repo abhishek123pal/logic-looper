@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import PuzzleBoard from './features/puzzles/PuzzleBoard';
-import Leaderboard from './features/leaderboard/leaderboard';
+import Leaderboard from './features/leaderboard/Leaderboard';
 import StatsDashboard from './features/stats/StatsDashboard';
+import StreakHeatmap from "./features/streaks/StreakHeatmap";
 import { useAuth } from './context/AuthContext';
 import AuthForm from './components/AuthForm';
 
